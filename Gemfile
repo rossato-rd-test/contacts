@@ -47,3 +47,4 @@ end
 
 ruby '2.2.2'
 gem 'puma'
+gem 'newrelic_rpm'
