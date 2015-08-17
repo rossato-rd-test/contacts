@@ -2,4 +2,4 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: contacs
+      appname: hidden-cliffs-5150
