@@ -46,3 +46,4 @@ group :development, :test do
 end
 
 ruby '2.2.2'
+gem 'puma'
