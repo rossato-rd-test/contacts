@@ -45,6 +45,17 @@ group :development, :test do
   gem 'spring'
 end
 
+# Defines the ruby version (installed on my Mac)
 ruby '2.2.2'
+
+# As puma said, they are better. Don't ask me why.
 gem 'puma'
+
+# When a application comes to life, someone needs to take care of it.
 gem 'newrelic_rpm'
+
+# Salesforce connector gem, for the lazy ones.
+gem 'restforce'
+
+# Phone as phoen validator (https://github.com/carr/phone)
+gem 'phone'
