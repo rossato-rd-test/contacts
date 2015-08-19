@@ -3,6 +3,7 @@ require 'test_helper'
 class ContactsControllerTest < ActionController::TestCase
   setup do
     @contact = contacts(:one)
+    @contact.email = "email@email.com" # sets a valid email because of format validation
   end
 
   test "should get index" do
