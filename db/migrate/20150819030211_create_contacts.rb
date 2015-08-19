@@ -1,6 +1,6 @@
 class CreateContacts < ActiveRecord::Migration
   def change
-    drop_table :contacts
+    drop_table 'contacts' if ActiveRecord::Base.connection.table_exists? 'contacts'
     create_table :contacts do |t|
       t.string :name
       t.string :last_name
